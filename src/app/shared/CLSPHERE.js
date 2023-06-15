@@ -1,0 +1,810 @@
+export const CLSPHERE = [
+    {
+     "name": "Oasys Max 1-Day",
+     "nameID": "V001",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Oasys Max 1-Day Multifocal",
+     "nameID": "V002",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Oasys 1-Day",
+     "nameID": "V003",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Oasys 1-Day for Astigmatism",
+     "nameID": "V004",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Moist",
+     "nameID": "V005",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Moist for Astigmatism",
+     "nameID": "V006",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Moist Multifocal",
+     "nameID": "V007",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Oasys",
+     "nameID": "V008",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Oasys for Astigmatism",
+     "nameID": "V009",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Oasys Multifocal",
+     "nameID": "V010",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Oasys with Transitions",
+     "nameID": "V012",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "fiftySteps": true
+    },
+    {
+     "name": "Vita",
+     "nameID": "V013",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Vita for Astigmatism",
+     "nameID": "V014",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Define",
+     "nameID": "V015",
+     "pl": true,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -9,
+     "maxPlus": 1,
+     "fiftySteps": true,
+     "Column9": "There is no +0.75"
+    },
+    {
+     "name": "Acuvue2",
+     "nameID": "V017",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Infuse One-Day",
+     "nameID": "BL01",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Infuse One-Day Multifocal",
+     "nameID": "BL02",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "ONEday",
+     "nameID": "BL03",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "ONEday for Astigmatism",
+     "nameID": "BL04",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "ONEday for Presbyopia",
+     "nameID": "BL05",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Ultra",
+     "nameID": "BL06",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Ultra for Astigmatism",
+     "nameID": "BL07",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Ultra for Presbyopa",
+     "nameID": "BL08",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Ultra Multifocal for Astigmatism",
+     "nameID": "BL09",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -6,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "PureVision",
+     "nameID": "BL10",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "8.6 only; 8.3 is -0.25 to -6"
+    },
+    {
+     "name": "PureVision Multi-Focal",
+     "nameID": "BL11",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "PureVision2",
+     "nameID": "BL12",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "PureVision2 for Astigmatism",
+     "nameID": "BL13",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": false,
+     "maxMinus": -9,
+     "maxPlus": 0,
+     "fiftySteps": true
+    },
+    {
+     "name": "PureVision2 For Presbyopia",
+     "nameID": "BL14",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Soflens 38",
+     "nameID": "BL15",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 4,
+     "fiftySteps": false
+    },
+    {
+     "name": "Soflens Toric",
+     "nameID": "BL16",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": false,
+     "maxMinus": -9,
+     "fiftySteps": true
+    },
+    {
+     "name": "Soflens MultiFocal",
+     "nameID": "BL17",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -7,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Soflens daily disposable",
+     "nameID": "BL18",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 6.5,
+     "fiftySteps": true,
+     "Column9": "0.50 steps over -6.50 DOUBLECHECK"
+    },
+    {
+     "name": "Avaira Vitality",
+     "nameID": "CV01",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Avaira Vitality Toric",
+     "nameID": "CV02",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Biofinity",
+     "nameID": "CV03",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Biofinity XR",
+     "nameID": "CV04",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -20,
+     "maxPlus": 15,
+     "fiftySteps": true,
+     "Column9": "-12.50 and up is XR, +8.50 and up is XR"
+    },
+    {
+     "name": "Biofinity Energys",
+     "nameID": "CV05",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Biofinity multifocal",
+     "nameID": "CV06",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Biofinity toric",
+     "nameID": "CV07",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Biofinity XR toric",
+     "nameID": "CV08",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -20,
+     "maxPlus": 20,
+     "fiftySteps": true,
+     "Column9": "XR if -10+ or 8+ and\/or if cyl -2.75 to -5.75 "
+    },
+    {
+     "name": "Biofinity toric multifocal",
+     "nameID": "CV09",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 10,
+     "fiftySteps": true
+    },
+    {
+     "name": "Biomedics 55 Premier",
+     "nameID": "CV10",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "There is no +5.25 or +5.75, and ranges change by BC "
+    },
+    {
+     "name": "Biomedics toric",
+     "nameID": "CV11",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "There is no +5.25 or +5.75"
+    },
+    {
+     "name": "Clariti 1 Day",
+     "nameID": "CV12",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -10,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Clariti 1 Day Toric",
+     "nameID": "CV13",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -9,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Clariti 1 Day Multifocal",
+     "nameID": "CV14",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -6,
+     "maxPlus": 5,
+     "fiftySteps": true
+    },
+    {
+     "name": "MiSight 1 day",
+     "nameID": "CV15",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -0.5,
+     "maxPlus": 7,
+     "fiftySteps": true,
+     "Column9": "*Myopia Management*"
+    },
+    {
+     "name": "MyDay",
+     "nameID": "CV16",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true,
+     "Column9": "There is no +5.25 or +5.75"
+    },
+    {
+     "name": "MyDay Energys",
+     "nameID": "CV17",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true,
+     "Column9": "There is no +5.25 or +5.75"
+    },
+    {
+     "name": "MyDay multifocal",
+     "nameID": "CV18",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": false,
+     "Column9": "There is no -10.25, -10.75, -11.25, or -11.75 "
+    },
+    {
+     "name": "MyDay toric",
+     "nameID": "CV19",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Proclear 1 day",
+     "nameID": "CV20",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true,
+     "Column9": "There is no +5.25 or +5.75"
+    },
+    {
+     "name": "Proclear 1 day multifocal",
+     "nameID": "CV21",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Proclear multifocal",
+     "nameID": "CV22",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "There is also -6.25"
+    },
+    {
+     "name": "Proclear multifocal XR",
+     "nameID": "CV23",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -20,
+     "maxPlus": 20,
+     "fiftySteps": true,
+     "Column9": "There is also +6.25; +6.25\/-6.50 and up and\/or BC 8.4 and\/or +3.00, +3.50, or +4.00 adds are XR"
+    },
+    {
+     "name": "Proclear multifocal toric",
+     "nameID": "CV24",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -20,
+     "maxPlus": 20,
+     "fiftySteps": true,
+     "Column9": "There are also -6.25 and +6.25"
+    },
+    {
+     "name": "Proclear sphere",
+     "nameID": "CV25",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": false,
+     "maxMinus": -20,
+     "maxPlus": 20,
+     "fiftySteps": true
+    },
+    {
+     "name": "Proclear toric",
+     "nameID": "CV26",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "There is also -6.25"
+    },
+    {
+     "name": "Proclear toric XR",
+     "nameID": "CV27",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 10,
+     "fiftySteps": true,
+     "Column9": "There are also -6.25 (for XR cyl) and +6.25; +6.25\/-6.50  and up and\/or -2.75 to -5.75 cyl are XR"
+    },
+    {
+     "name": "Air Optix plus HydraGlyde",
+     "nameID": "A001",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true,
+     "Column9": "There are also -6.25, -6.75, -7.25, and -7.75"
+    },
+    {
+     "name": "Air Optix plus HydraGlyde for Astigmatism",
+     "nameID": "A002",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Air Optix plus HydraGlyde Multifocal",
+     "nameID": "A003",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Air Optix Colors",
+     "nameID": "A004",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Air Optix Night &amp; Day Aqua",
+     "nameID": "A005",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Dailies AquaComfort Plus",
+     "nameID": "A006",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -15,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Dailies AquaComfort Plus Multifocal",
+     "nameID": "A007",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Dailies AquaComfort Plus Toric",
+     "nameID": "A008",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Dailies Colors",
+     "nameID": "A009",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": false,
+     "maxMinus": -8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Dailies Total 1",
+     "nameID": "A010",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Dailies Total 1 for Astigmatism",
+     "nameID": "A011",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Dailies Total 1 Multifocal",
+     "nameID": "A012",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": false
+    },
+    {
+     "name": "Focus Dailies",
+     "nameID": "A013",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -10,
+     "maxPlus": 6,
+     "fiftySteps": true
+    },
+    {
+     "name": "Freshlook Colorblends",
+     "nameID": "A014",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "There is no +2.25, +2.75, +3.25, +3.75, +4.25, +4.75, +5.25, or +5.75"
+    },
+    {
+     "name": "Freshlook Handling Tint",
+     "nameID": "A016",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 6,
+     "fiftySteps": true,
+     "Column9": "There is no +2.25, +2.75, +3.25, +3.75, +4.25, +4.75, +5.25, or +5.75"
+    },
+    {
+     "name": "Precision1",
+     "nameID": "A017",
+     "pl": false,
+     "minusQuarter": false,
+     "plusQuarter": false,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true
+    },
+    {
+     "name": "Precision1 for Astigmatism",
+     "nameID": "A018",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -8,
+     "maxPlus": 4,
+     "fiftySteps": true
+    },
+    {
+     "name": "Total30",
+     "nameID": "A019",
+     "pl": false,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -12,
+     "maxPlus": 8,
+     "fiftySteps": true,
+     "Column9": "There are also -6.25, -6.75, -7.25, and -7.75"
+    },
+    {
+     "name": "Total30 for Astigmatism",
+     "nameID": "A020",
+     "pl": true,
+     "minusQuarter": true,
+     "plusQuarter": true,
+     "maxMinus": -10,
+     "maxPlus": 8,
+     "fiftySteps": true
+    }
+   ]
